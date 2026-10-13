@@ -4,6 +4,10 @@
 
 **EpoxyCalculators.com** is a fast, 100% client-side + static-prerendered engineering calculator suite built for US woodworkers, river table makers, bar top builders, and garage floor contractors.
 
+## Outreach / 外链进度
+
+Compliant free-directory outreach plan, completed submits, and next steps: [`docs/backlinks/PLAN.md`](docs/backlinks/PLAN.md).
+
 ## 🔗 Live Calculators
 
 1. **[Universal Epoxy Resin Calculator (Volume + Part A/B Grams)](https://epoxycalculators.com/)**
