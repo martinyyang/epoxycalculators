@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep Pour Epoxy Calculator: River Table & Casting Volume</title>
+  <meta name="description" content="Free deep pour epoxy calculator for live-edge river tables and thick wood castings (1 to 4 inches). Measure 5-point irregular river widths and prevent cracking." />
+  <link rel="canonical" href="https://epoxycalculators.com/deep-pour-river-table-calculator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Deep Pour Epoxy Calculator: River Table & Casting Volume" />
+  <meta property="og:description" content="Free deep pour epoxy calculator for live-edge river tables and thick wood castings (1 to 4 inches). Measure 5-point irregular river widths and prevent cracking." />
+  <meta property="og:url" content="https://epoxycalculators.com/deep-pour-river-table-calculator" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Deep Pour Epoxy Calculator for River Tables", "url": "https://epoxycalculators.com/deep-pour-river-table-calculator", "description": "Free deep pour epoxy calculator for live-edge river tables and thick wood castings (1 to 4 inches). Measure 5-point irregular river widths and prevent cracking.", "applicationCategory": "DesignApplication", "operatingSystem": "All", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much epoxy do I need for a 6-foot river table?", "acceptedAnswer": {"@type": "Answer", "text": "A typical 72\" × 36\" dining table with an average 9-inch wide river channel and 1.75-inch thick black walnut slabs requires approximately 5.4 to 6.0 US gallons (690 to 770 fl oz) of deep pour casting resin once you account for live-edge bevel cavities and initial timber sealing."}}, {"@type": "Question", "name": "What is the difference between 1:1 tabletop resin and 2:1 or 3:1 deep pour resin?", "acceptedAnswer": {"@type": "Answer", "text": "Tabletop resin (1:1 mix ratio) has a high viscosity (similar to honey) and cures fast, making it ideal for 1/8-inch surface coats but dangerous for thick pours above 1/4 inch. Deep pour casting resin (typically 2:1 or 3:1 mix ratio) has a water-thin viscosity that lets micro-bubbles escape easily and cures slowly over 48 to 72 hours so thick 2-inch pours do not overheat, crack, or turn amber."}}, {"@type": "Question", "name": "How long does deep pour epoxy take to cure before flattening on a CNC or router sled?", "acceptedAnswer": {"@type": "Answer", "text": "Most 2:1 slow-cure systems reach tack-free gel stage in 24 to 36 hours at 72°F (22°C), demold strength in 72 hours, and full mechanical hardness for router sled flattening and orbital sanding after 5 to 7 days."}}, {"@type": "Question", "name": "Should I brush a seal coat onto live edges before pouring the river?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Porous hardwood edges (especially oak, walnut sapwood, and spalted maple) trap air inside wood fibers. Brushing a thin seal coat of fast-cure resin onto the inner river walls 6 hours before your main deep pour prevents continuous bubble streams from rising into the clear channel."}}]}]}</script>
+  <!-- Google Analytics 4 (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5SBR2SYSH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E5SBR2SYSH');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yx2i1xmys3");
+  </script>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased selection:bg-amber-200 selection:text-stone-900 min-h-screen flex flex-col">
+
+  <!-- Top Navigation Bar (Clean Bright White Header) -->
+  <header class="border-b border-stone-200 bg-white/95 backdrop-blur sticky top-0 z-30 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
+      <a href="/" title="EpoxyCalculators.com Home" class="flex items-center gap-2.5">
+        <span class="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-white font-black text-lg shadow-xs">E</span>
+        <span class="font-extrabold text-lg tracking-tight text-stone-900">Epoxy<span class="text-amber-600">Calculators</span>.com</span>
+      </a>
+      <nav aria-label="Calculator Modes" class="flex flex-wrap items-center gap-1.5">
+        <a href="/" title="Epoxy Resin Calculator for Volume, River Tables and Mix Ratio Grams" class="px-3.5 py-2 rounded-lg text-sm font-medium text-stone-700 hover:text-amber-700 hover:bg-amber-50 transition">Universal Epoxy Calculator</a><a href="/deep-pour-river-table-calculator" title="Deep Pour Epoxy Calculator for Live-Edge River Tables and Castings" class="px-3.5 py-2 rounded-lg text-sm font-bold bg-amber-500 text-white shadow-sm">Deep Pour & River Table</a><a href="/table-top-countertop-calculator" title="Table Top and Countertop Epoxy Coverage Calculator for Seal and Flood Coats" class="px-3.5 py-2 rounded-lg text-sm font-medium text-stone-700 hover:text-amber-700 hover:bg-amber-50 transition">Table Top & Countertop</a><a href="/garage-floor-cost-calculator" title="Epoxy Garage Floor Cost Calculator for Gallons, Vinyl Flakes and Budget" class="px-3.5 py-2 rounded-lg text-sm font-medium text-stone-700 hover:text-amber-700 hover:bg-amber-50 transition">Garage Floor & Cost</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 sm:py-8">
+    <!-- Hero Header (Above the Fold) -->
+    <div class="mb-6">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 border border-amber-300 text-amber-900 text-xs font-bold mb-2">
+        <span>⚡ Verified US Customary & Metric Constants</span>
+        <span>•</span>
+        <span>5-Point Irregular River Channel + Exothermic Safety Alert</span>
+      </div>
+      <h1 class="text-2xl sm:text-4xl font-extrabold text-stone-900 tracking-tight mb-2">Deep Pour Epoxy Calculator for River Tables</h1>
+      <p class="text-sm sm:text-base text-stone-600 max-w-4xl">Accurately estimate 1" to 4" thick casting pours using 5-point irregular river channel widths, live-edge bark slope compensation, and exothermic layer checks.</p>
+    </div>
+
+    <!-- First-Screen Interactive Calculator Workbench -->
+    <section aria-label="Interactive Calculator" class="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-12">
+      <!-- Left Column: Inputs & Controls (7 cols) -->
+      <div class="lg:col-span-7 bg-white border border-stone-200 rounded-2xl p-5 sm:p-6 shadow-md">
+        <!-- Mode Switcher Tabs -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-5 p-1.5 bg-stone-100 rounded-xl border border-stone-200" id="modeTabs">
+          <button type="button" data-mode="universal" class="mode-tab py-2.5 px-3 rounded-lg text-xs sm:text-sm font-bold transition">1. Table / Mold</button>
+          <button type="button" data-mode="river" class="mode-tab py-2.5 px-3 rounded-lg text-xs sm:text-sm font-bold transition">2. River Table (5-Pt)</button>
+          <button type="button" data-mode="tabletop" class="mode-tab py-2.5 px-3 rounded-lg text-xs sm:text-sm font-bold transition">3. Countertop + Seal</button>
+          <button type="button" data-mode="garage" class="mode-tab py-2.5 px-3 rounded-lg text-xs sm:text-sm font-bold transition">4. Garage Floor & Cost</button>
+        </div>
+
+        <!-- Panel A: Universal / River / Countertop Shared & Specific Inputs -->
+        <div id="resinInputsPanel" class="space-y-5">
+          <!-- Quick Project Presets -->
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-stone-500 mb-2">One-Click Project Presets</label>
+            <div class="flex flex-wrap gap-2">
+              <button type="button" data-preset="dining" class="preset-btn px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-amber-50 hover:border-amber-300 text-xs font-semibold text-stone-800 border border-stone-200 transition">60"×30" Dining Flood (1/8")</button>
+              <button type="button" data-preset="river6ft" class="preset-btn px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-amber-50 hover:border-amber-300 text-xs font-semibold text-stone-800 border border-stone-200 transition">72" Walnut River Table (2.0" Deep)</button>
+              <button type="button" data-preset="countertop" class="preset-btn px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-amber-50 hover:border-amber-300 text-xs font-semibold text-stone-800 border border-stone-200 transition">84"×42" Kitchen Island (Seal + Flood)</button>
+              <button type="button" data-preset="round36" class="preset-btn px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-amber-50 hover:border-amber-300 text-xs font-semibold text-stone-800 border border-stone-200 transition">36" Round Café Table (1/8")</button>
+            </div>
+          </div>
+
+          <!-- Shape Selector + Dimensions Row -->
+          <div class="grid grid-cols-1 sm:grid-cols-4 gap-3.5">
+            <div id="shapeSelectBox">
+              <label for="shapeType" class="block text-xs font-bold text-stone-700 mb-1">Surface Shape</label>
+              <select id="shapeType" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3 py-2.5 text-sm text-stone-900 font-bold focus:border-amber-500 focus:bg-white focus:outline-none">
+                <option value="rect" selected>Rectangular (L × W)</option>
+                <option value="circle">Circular / Round (Ø)</option>
+              </select>
+            </div>
+            <div>
+              <label id="lengthLabel" for="lengthIn" class="block text-xs font-bold text-stone-700 mb-1">Length (Inches)</label>
+              <input id="lengthIn" type="number" step="0.25" min="1" value="60" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3.5 py-2.5 text-stone-900 font-bold focus:border-amber-500 focus:bg-white focus:outline-none" />
+            </div>
+            <div id="singleWidthBox">
+              <label for="widthIn" class="block text-xs font-bold text-stone-700 mb-1">Width (Inches)</label>
+              <input id="widthIn" type="number" step="0.25" min="1" value="30" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3.5 py-2.5 text-stone-900 font-bold focus:border-amber-500 focus:bg-white focus:outline-none" />
+            </div>
+            <div>
+              <label for="depthIn" class="block text-xs font-bold text-stone-700 mb-1">Thickness (Inches)</label>
+              <input id="depthIn" type="number" step="0.0625" min="0.03" value="0.125" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3.5 py-2.5 text-stone-900 font-bold focus:border-amber-500 focus:bg-white focus:outline-none" />
+            </div>
+          </div>
+
+          <!-- Thickness Quick Chips -->
+          <div class="flex flex-wrap items-center gap-1.5">
+            <span class="text-xs font-semibold text-stone-500 mr-1">Common Thicknesses:</span>
+            <button type="button" data-depth="0.0625" class="depth-chip px-2.5 py-1 rounded-md bg-stone-100 border border-stone-200 text-xs font-semibold text-stone-700 hover:bg-amber-500 hover:text-white transition">1/16" Skim Coat</button>
+            <button type="button" data-depth="0.125" class="depth-chip px-2.5 py-1 rounded-md bg-amber-100 border border-amber-300 text-xs font-bold text-amber-900 hover:bg-amber-500 hover:text-white transition">1/8" Standard Flood Coat</button>
+            <button type="button" data-depth="0.25" class="depth-chip px-2.5 py-1 rounded-md bg-stone-100 border border-stone-200 text-xs font-semibold text-stone-700 hover:bg-amber-500 hover:text-white transition">1/4" Thick Coat</button>
+            <button type="button" data-depth="1.5" class="depth-chip px-2.5 py-1 rounded-md bg-stone-100 border border-stone-200 text-xs font-semibold text-stone-700 hover:bg-amber-500 hover:text-white transition">1.5" Deep Pour</button>
+            <button type="button" data-depth="2.0" class="depth-chip px-2.5 py-1 rounded-md bg-stone-100 border border-stone-200 text-xs font-semibold text-stone-700 hover:bg-amber-500 hover:text-white transition">2.0" River Table</button>
+          </div>
+
+          <!-- Irregular River Table 5-Point Widths (Shown in River Mode) -->
+          <div id="riverPointsBox" class="hidden bg-sky-50 border border-sky-200 rounded-xl p-4">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-extrabold uppercase tracking-wider text-sky-900">🌊 Irregular River Channel: 5-Point Width Measurements (Inches)</span>
+              <span id="avgWidthBadge" class="text-xs font-bold text-sky-900 bg-white border border-sky-200 px-2.5 py-0.5 rounded shadow-2xs">Avg Width: 10.00"</span>
+            </div>
+            <p class="text-xs text-sky-800 mb-3">Measure the gap between your left and right wood slabs at 5 evenly spaced marks along the mold length:</p>
+            <div class="grid grid-cols-5 gap-2">
+              <div>
+                <label for="w1" class="block text-[11px] font-semibold text-sky-900 mb-1">W1 (0%)</label>
+                <input id="w1" type="number" step="0.25" value="8" class="river-w w-full bg-white border border-sky-300 rounded px-2.5 py-1.5 text-sm text-stone-900 font-bold" />
+              </div>
+              <div>
+                <label for="w2" class="block text-[11px] font-semibold text-sky-900 mb-1">W2 (25%)</label>
+                <input id="w2" type="number" step="0.25" value="10" class="river-w w-full bg-white border border-sky-300 rounded px-2.5 py-1.5 text-sm text-stone-900 font-bold" />
+              </div>
+              <div>
+                <label for="w3" class="block text-[11px] font-semibold text-sky-900 mb-1">W3 (50%)</label>
+                <input id="w3" type="number" step="0.25" value="12" class="river-w w-full bg-white border border-sky-300 rounded px-2.5 py-1.5 text-sm text-stone-900 font-bold" />
+              </div>
+              <div>
+                <label for="w4" class="block text-[11px] font-semibold text-sky-900 mb-1">W4 (75%)</label>
+                <input id="w4" type="number" step="0.25" value="9" class="river-w w-full bg-white border border-sky-300 rounded px-2.5 py-1.5 text-sm text-stone-900 font-bold" />
+              </div>
+              <div>
+                <label for="w5" class="block text-[11px] font-semibold text-sky-900 mb-1">W5 (100%)</label>
+                <input id="w5" type="number" step="0.25" value="11" class="river-w w-full bg-white border border-sky-300 rounded px-2.5 py-1.5 text-sm text-stone-900 font-bold" />
+              </div>
+            </div>
+            <label class="inline-flex items-center gap-2 mt-3 text-xs text-sky-950 font-medium cursor-pointer">
+              <input id="liveEdgeToggle" type="checkbox" checked class="rounded border-sky-400 text-amber-600 focus:ring-amber-500" />
+              <span>Add <strong>+10% Live-Edge Bevel Compensation</strong> (for angled bark cavities underneath the slab surface)</span>
+            </label>
+          </div>
+
+          <!-- Mix Ratio, Seal Coat & Waste Buffer -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-3 border-t border-stone-200">
+            <div>
+              <label for="mixRatio" class="block text-xs font-bold text-stone-700 mb-1">Mix Ratio (By Volume)</label>
+              <select id="mixRatio" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3 py-2.5 text-sm text-stone-900 font-bold">
+                <option value="1:1">1 : 1 (Standard Tabletop Coat)</option>
+                <option value="2:1">2 : 1 (Deep Pour River Casting)</option>
+                <option value="3:1">3 : 1 (Ultra-Slow Thick Casting)</option>
+              </select>
+            </div>
+            <div>
+              <label for="wastePct" class="block text-xs font-bold text-stone-700 mb-1">Edge Drip & Cup Waste (%)</label>
+              <select id="wastePct" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3 py-2.5 text-sm text-stone-900 font-bold">
+                <option value="0">0% (Exact Geometric Volume)</option>
+                <option value="5">5% (Silicone Mold / Dammed Box)</option>
+                <option value="10" selected>10% (Standard Surface & Cup Buffer)</option>
+                <option value="15">15% (Waterfall Countertop Edges)</option>
+              </select>
+            </div>
+            <div class="flex flex-col justify-end">
+              <label class="flex items-center gap-2.5 p-2.5 rounded-lg bg-amber-50/70 border border-amber-200 cursor-pointer">
+                <input id="includeSealCoat" type="checkbox" checked class="rounded border-stone-400 text-amber-600 focus:ring-amber-500" />
+                <span class="text-xs font-bold text-stone-800">Add Seal Coat (3.5 oz/sq.ft)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel B: Garage Floor & Cost Inputs (Shown in Garage Mode) -->
+        <div id="garageInputsPanel" class="hidden space-y-5">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-stone-500 mb-2">Standard US Garage Size Presets</label>
+            <div class="grid grid-cols-3 gap-2">
+              <button type="button" data-garage="240" class="garage-preset py-2 px-3 rounded-lg bg-stone-100 hover:bg-amber-50 text-xs font-bold text-stone-800 border border-stone-200">1-Car Garage (240 sq.ft)</button>
+              <button type="button" data-garage="440" class="garage-preset py-2 px-3 rounded-lg bg-amber-100 text-xs font-bold text-amber-900 border border-amber-300">2-Car Garage (440 sq.ft)</button>
+              <button type="button" data-garage="650" class="garage-preset py-2 px-3 rounded-lg bg-stone-100 hover:bg-amber-50 text-xs font-bold text-stone-800 border border-stone-200">3-Car Garage (650 sq.ft)</button>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label for="garageSqft" class="block text-xs font-bold text-stone-700 mb-1">Floor Area (Square Feet)</label>
+              <input id="garageSqft" type="number" step="10" min="50" value="440" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3.5 py-2.5 text-stone-900 font-bold" />
+            </div>
+            <div>
+              <label for="garageMils" class="block text-xs font-bold text-stone-700 mb-1">Base Coat Thickness (Mils)</label>
+              <select id="garageMils" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3 py-2.5 text-sm text-stone-900 font-bold">
+                <option value="8">8 Mils (Light Duty Roll-On)</option>
+                <option value="12" selected>12 Mils (Standard High-Build 100% Solids)</option>
+                <option value="16">16 Mils (Heavy Workshop Floor)</option>
+                <option value="20">20 Mils (Commercial Service Bay)</option>
+              </select>
+            </div>
+            <div>
+              <label for="flakeDensity" class="block text-xs font-bold text-stone-700 mb-1">Vinyl Flake Broadcast</label>
+              <select id="flakeDensity" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3 py-2.5 text-sm text-stone-900 font-bold">
+                <option value="light">Light Broadcast (0.08 lb/sq.ft)</option>
+                <option value="medium" selected>Medium Broadcast (0.15 lb/sq.ft)</option>
+                <option value="full">Full Rejection Broadcast (0.85 lb/sq.ft)</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-stone-200">
+            <div>
+              <label for="kitPricePerGal" class="block text-xs font-bold text-stone-700 mb-1">100% Solids Kit Price ($ / Gallon)</label>
+              <input id="kitPricePerGal" type="number" step="1" min="30" value="89.50" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3.5 py-2 text-stone-900 font-bold" />
+            </div>
+            <div>
+              <label for="proRateSqft" class="block text-xs font-bold text-stone-700 mb-1">Local Contractor Rate ($ / sq.ft)</label>
+              <input id="proRateSqft" type="number" step="0.25" min="2" value="5.75" class="w-full bg-stone-50 border border-stone-300 rounded-lg px-3.5 py-2 text-stone-900 font-bold" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive 2D Visual Blueprint SVG (Clean Daylight Style) -->
+        <div class="mt-6 bg-stone-50 border border-stone-200 rounded-xl p-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-stone-500">Live 2D Top-Down Blueprint Preview</span>
+            <span id="svgDimLabel" class="text-xs font-mono font-bold text-amber-800">60.0" × 30.0" × 0.125" (12.5 sq.ft)</span>
+          </div>
+          <svg id="blueprintSvg" viewBox="0 0 520 175" class="w-full h-40 rounded-lg bg-white border border-stone-200"></svg>
+        </div>
+      </div>
+
+      <!-- Right Column: Live Results & Digital Scale Readout (5 cols, Bright White Card) -->
+      <div class="lg:col-span-5 bg-white border-2 border-amber-400 rounded-2xl p-5 sm:p-6 shadow-lg flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between border-b border-stone-200 pb-3 mb-4">
+            <div>
+              <span class="text-xs font-extrabold uppercase tracking-wider text-amber-700">Step-by-Step Result Summary</span>
+              <h2 class="text-lg font-extrabold text-stone-900" id="resultModeHeading">Exact Volume & Scale Weight</h2>
+            </div>
+            <button type="button" id="copyBomBtn" class="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-white text-xs font-extrabold transition shadow-xs">
+              📋 Copy Mix Sheet
+            </button>
+          </div>
+
+          <!-- Primary Volume Cards -->
+          <div id="standardResultBox" class="space-y-4">
+            <!-- Plain-English Shopping Recommendation Banner -->
+            <div class="bg-amber-50 border border-amber-300 rounded-xl p-3.5">
+              <span class="text-[11px] font-extrabold uppercase tracking-wider text-amber-800 block">🛒 Plain-English Shopping Guide (What to Buy)</span>
+              <p id="resKitRecommend" class="text-sm sm:text-base font-extrabold text-stone-900 mt-0.5">Buy a 1.5-Gallon Kit (or 1 Gal + 2 Quarts)</p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div class="bg-stone-50 border border-stone-200 rounded-xl p-4">
+                <span class="text-xs font-semibold text-stone-500 block mb-1">Total US Gallons</span>
+                <span id="resGallons" class="text-2xl sm:text-3xl font-black text-amber-600">1.45 gal</span>
+                <span id="resQuarts" class="text-xs text-stone-600 block mt-1">5.80 Quarts (5.49 Liters)</span>
+              </div>
+              <div class="bg-stone-50 border border-stone-200 rounded-xl p-4">
+                <span class="text-xs font-semibold text-stone-500 block mb-1">Total Fluid Ounces</span>
+                <span id="resFloz" class="text-2xl sm:text-3xl font-black text-stone-900">185.6 fl oz</span>
+                <span id="resMl" class="text-xs text-stone-600 block mt-1">5,489 mL (335.0 cu.in)</span>
+              </div>
+            </div>
+
+            <!-- Digital Kitchen Scale Readout (Part A + Part B Grams) -->
+            <div class="bg-emerald-50/80 border border-emerald-300 rounded-xl p-4">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-900">⚖️ Digital Kitchen Scale Weights (Grams)</span>
+                <span id="resRatioLabel" class="text-xs font-mono font-bold bg-white border border-emerald-300 text-emerald-900 px-2 py-0.5 rounded">1:1 by Volume</span>
+              </div>
+              <div class="grid grid-cols-2 gap-3 text-sm">
+                <div class="bg-white rounded-lg p-3 border border-emerald-200 shadow-2xs">
+                  <span class="text-xs font-semibold text-stone-500 block">Part A Resin (SG 1.15)</span>
+                  <span id="resPartAGrams" class="text-lg font-black text-stone-900">3,156.2 g</span>
+                  <span id="resPartAVol" class="text-xs font-semibold text-emerald-800 block">92.80 fl oz (2,744 mL)</span>
+                </div>
+                <div class="bg-white rounded-lg p-3 border border-emerald-200 shadow-2xs">
+                  <span class="text-xs font-semibold text-stone-500 block">Part B Hardener (SG 0.97)</span>
+                  <span id="resPartBGrams" class="text-lg font-black text-stone-900">2,662.0 g</span>
+                  <span id="resPartBVol" class="text-xs font-semibold text-emerald-800 block">92.80 fl oz (2,744 mL)</span>
+                </div>
+              </div>
+              <p class="text-[11px] text-stone-600 mt-2 leading-snug">
+                *Note: Resin is heavier than hardener (1.15 vs 0.97 g/mL), so a 1:1 volume mix weighs ~1.18:1 on a gram scale. Always verify against your bottle label.
+              </p>
+            </div>
+
+            <!-- Stage Breakdown: Seal Coat vs Flood/Main Pour + Mica Powder -->
+            <div class="bg-stone-50 border border-stone-200 rounded-xl p-4 space-y-2 text-xs">
+              <div class="flex justify-between text-stone-700">
+                <span>Stage 1 — Brush-On Seal Coat (3.5 oz/sq.ft):</span>
+                <strong id="resSealFloz" class="text-stone-900">43.8 fl oz (1,294 mL)</strong>
+              </div>
+              <div class="flex justify-between text-stone-700">
+                <span>Stage 2 — Main Pour / Flood Coat (incl. waste):</span>
+                <strong id="resMainFloz" class="text-stone-900">141.9 fl oz (4,195 mL)</strong>
+              </div>
+              <div class="flex justify-between text-stone-700 pt-1.5 border-t border-stone-200">
+                <span>Optional Mica Pigment Powder (at 2.5g/L):</span>
+                <strong id="resMicaGrams" class="text-amber-800">13.7 grams (~3 tsp)</strong>
+              </div>
+            </div>
+
+            <!-- Exothermic Warning Banner -->
+            <div id="exoWarningBox" class="hidden bg-rose-50 border border-rose-300 rounded-xl p-3.5 text-xs text-rose-900">
+              <strong class="block text-rose-800 font-bold mb-1">⚠️ Exothermic Heat Alert: Multi-Layer Pour Required</strong>
+              <span id="exoWarningText">Your target depth exceeds 2.0 inches. Pour in 2 separate layers spaced 12–18 hours apart to prevent runaway heat cracking and yellowing.</span>
+            </div>
+          </div>
+
+          <!-- Garage Floor Cost & Flake Result Box -->
+          <div id="garageResultBox" class="hidden space-y-4">
+            <div class="grid grid-cols-2 gap-3">
+              <div class="bg-stone-50 border border-stone-200 rounded-xl p-4">
+                <span class="text-xs font-semibold text-stone-500 block mb-1">100% Solids Base Coat</span>
+                <span id="resGarageGal" class="text-2xl font-black text-amber-600">3.62 gal</span>
+                <span id="resGarageCoverage" class="text-xs text-stone-600 block mt-1">133.7 sq.ft/gal @ 12 mils</span>
+              </div>
+              <div class="bg-stone-50 border border-stone-200 rounded-xl p-4">
+                <span class="text-xs font-semibold text-stone-500 block mb-1">Decorative Vinyl Flakes</span>
+                <span id="resFlakeLbs" class="text-2xl font-black text-stone-900">66.0 lbs</span>
+                <span class="text-xs text-stone-600 block mt-1">Medium Broadcast (0.15 lb/sq.ft)</span>
+              </div>
+            </div>
+            <div class="bg-emerald-50 border border-emerald-300 rounded-xl p-4 space-y-2.5">
+              <div class="flex justify-between items-center">
+                <span class="text-xs font-semibold text-stone-700">DIY Total Material & Prep Cost:</span>
+                <span id="resDiyCost" class="text-xl font-black text-emerald-800">$669.89</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-xs font-semibold text-stone-700">Professional Contractor Estimate:</span>
+                <span id="resProCost" class="text-lg font-bold text-stone-800">$2530.00</span>
+              </div>
+              <div class="pt-2 border-t border-emerald-200 flex justify-between items-center">
+                <span class="text-xs font-extrabold text-amber-900">Estimated DIY Savings:</span>
+                <span id="resSavings" class="text-lg font-black text-amber-700">$1860.11</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Specialized Calculators Internal Link Cards -->
+        <div class="mt-6 pt-4 border-t border-stone-200">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-stone-500 block mb-2">Switch to Specialized Calculators:</span>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+            <a href="/" title="Universal Epoxy Resin Calculator" class="p-2.5 rounded-lg bg-stone-50 hover:bg-amber-50 border border-stone-200 text-stone-800 font-semibold transition">🏠 Universal Volume & Gram Scale</a>
+            <a href="/deep-pour-river-table-calculator" title="Deep Pour River Table Epoxy Calculator" class="p-2.5 rounded-lg bg-stone-50 hover:bg-amber-50 border border-stone-200 text-stone-800 font-semibold transition">🌊 Deep Pour River Table (5-Pt)</a>
+            <a href="/table-top-countertop-calculator" title="Table Top and Countertop Epoxy Coverage Calculator" class="p-2.5 rounded-lg bg-stone-50 hover:bg-amber-50 border border-stone-200 text-stone-800 font-semibold transition">🪵 Table Top & Countertop Seal+Flood</a>
+            <a href="/garage-floor-cost-calculator" title="Epoxy Garage Floor Cost and Flake Calculator" class="p-2.5 rounded-lg bg-stone-50 hover:bg-amber-50 border border-stone-200 text-stone-800 font-semibold transition">🚗 Garage Floor Mils, Flake & Cost</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Below the Fold: Structured Engineering Content (H2/H3 Hierarchy) -->
+    <div class="space-y-12 max-w-5xl">
+      <section>
+        <h2 class="text-xl sm:text-2xl font-extrabold text-stone-900 mb-4">How to Measure an Irregular River Table Channel in 4 Steps</h2>
+        <p class="text-stone-700 leading-relaxed mb-4">Building a live-edge river table is one of the most rewarding woodworking projects, but standard rectangular calculators fail completely when two organic wood slabs wind and curve through your mold box. Because natural timber edges are neither straight nor perpendicular, a simple length-times-width estimate can leave you short by half a gallon onpouring day.</p>
+<p class="text-stone-700 leading-relaxed mb-4">This dedicated deep pour calculator solves irregular channel geometry in two ways: you can measure the river gap at five points along the mold (W1 to W5) and apply a live-edge bevel multiplier for sloped bark edges, or subtract your wood slab volume from the outer form dimensions. It also checks your target thickness against the 2-inch exothermic safety limit and breaks your batch into Part A and Part B gram weights for 2:1 and 3:1 slow-cure casting systems.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+          
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-amber-700 mb-2">1. Measure Mold Length & Target Depth</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Measure the inside length of your melamine or HDPE form box and the finished thickness of your flattened hardwood slabs (typically 1.5" to 2.5").</p>
+        </div>
+        
+
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-amber-700 mb-2">2. Record 5 Channel Widths (W1–W5)</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Divide the table length into four equal quarters and measure the gap between the left and right wood slabs at the start, 25%, 50%, 75%, and end marks.</p>
+        </div>
+        
+
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-amber-700 mb-2">3. Apply Live-Edge Bevel Compensation</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Natural waney edges slope outward underneath the top surface. Enable the +10% Live-Edge Bevel factor so undercut bark cavities do not drain your pour level.</p>
+        </div>
+        
+
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-amber-700 mb-2">4. Check Exothermic Layer Count</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">If your pour exceeds 2.0 inches, review the automatic multi-layer split recommendation to keep peak curing temperatures below 140°F (60°C).</p>
+        </div>
+        
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-xl sm:text-2xl font-extrabold text-stone-900 mb-4">Deep Pour Casting Math: Multi-Point Integration vs. Slab Subtraction</h2>
+        <div class="bg-white border border-stone-200 rounded-xl p-5 space-y-3 text-sm text-stone-700 shadow-xs">
+          <p>Every calculation in our workbench uses exact US customary (NIST) and metric physical constants with zero rounding drift:</p>
+          <ul class="list-disc pl-5 space-y-2">
+            <li><strong>Rectangular Volume (in³):</strong> <code class="text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded font-semibold">Volume = Length (in) × Width (in) × Depth (in)</code></li>
+            <li><strong>Circular / Round Table Volume (in³):</strong> <code class="text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded font-semibold">Volume = π × (Diameter ÷ 2)² × Depth (in)</code></li>
+            <li><strong>Irregular 5-Point River Channel (in³):</strong> <code class="text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded font-semibold">Volume = Length × ((W1 + W2 + W3 + W4 + W5) ÷ 5) × Depth × LiveEdgeFactor</code></li>
+            <li><strong>Cubic Inches to US Fluid Ounces:</strong> <code class="text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded font-semibold">Fluid Ounces = Cubic Inches × 0.554112554</code> (1 US Gallon = 231 in³ = 128 fl oz)</li>
+            <li><strong>Volumetric Ratio to Digital Scale Weight (Grams):</strong> <code class="text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded font-semibold">Part A Grams = Part A mL × 1.15</code> and <code class="text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded font-semibold">Part B Grams = Part B mL × 0.97</code></li>
+            <li><strong>Garage Floor Mil Coverage:</strong> <code class="text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded font-semibold">Sq.Ft per Gallon = 1,604 ÷ Thickness in Mils</code> (at 100% volume solids)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-xl sm:text-2xl font-extrabold text-stone-900 mb-3">River Table Volume Chart by Channel Width and Pour Depth</h2>
+        <p class="text-sm text-stone-600 mb-4">Deep casting volume for a 72-inch (6-foot) river table across common average river widths and slab thicknesses (includes +10% live-edge bevel allowance):</p>
+        <div class="overflow-x-auto rounded-xl border border-stone-200 bg-white shadow-xs">
+          <table class="w-full border-collapse">
+            <thead>
+              <tr><th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-stone-700 border-b border-stone-200 bg-stone-100">River Length</th><th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-stone-700 border-b border-stone-200 bg-stone-100">Avg Channel Width</th><th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-stone-700 border-b border-stone-200 bg-stone-100">1.5" Slab Depth</th><th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-stone-700 border-b border-stone-200 bg-stone-100">1.75" Slab Depth</th><th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-stone-700 border-b border-stone-200 bg-stone-100">2.0" Slab Depth</th><th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-stone-700 border-b border-stone-200 bg-stone-100">3.0" Thick Slab (2 Layers)</th></tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-stone-200 hover:bg-amber-50/40"><td class="px-4 py-3 text-sm font-bold text-stone-900">60" (5 ft Table)</td><td class="px-4 py-3 text-sm text-stone-700">6" Narrow Stream</td><td class="px-4 py-3 text-sm text-stone-700">329 fl oz (2.57 gal)</td><td class="px-4 py-3 text-sm text-stone-700">384 fl oz (3.00 gal)</td><td class="px-4 py-3 text-sm text-stone-700">439 fl oz (3.43 gal)</td><td class="px-4 py-3 text-sm text-stone-700">658 fl oz (5.14 gal)</td></tr>
+<tr class="border-b border-stone-200 hover:bg-amber-50/40"><td class="px-4 py-3 text-sm font-bold text-stone-900">72" (6 ft Dining)</td><td class="px-4 py-3 text-sm text-stone-700">8" Medium River</td><td class="px-4 py-3 text-sm text-stone-700">527 fl oz (4.11 gal)</td><td class="px-4 py-3 text-sm text-stone-700">614 fl oz (4.80 gal)</td><td class="px-4 py-3 text-sm text-stone-700">702 fl oz (5.49 gal)</td><td class="px-4 py-3 text-sm text-stone-700">1,053 fl oz (8.23 gal)</td></tr>
+<tr class="border-b border-stone-200 hover:bg-amber-50/40"><td class="px-4 py-3 text-sm font-bold text-stone-900">72" (6 ft Dining)</td><td class="px-4 py-3 text-sm text-stone-700">10" Wide River</td><td class="px-4 py-3 text-sm text-stone-700">658 fl oz (5.14 gal)</td><td class="px-4 py-3 text-sm text-stone-700">768 fl oz (6.00 gal)</td><td class="px-4 py-3 text-sm text-stone-700">878 fl oz (6.86 gal)</td><td class="px-4 py-3 text-sm text-stone-700">1,317 fl oz (10.29 gal)</td></tr>
+<tr class="border-b border-stone-200 hover:bg-amber-50/40"><td class="px-4 py-3 text-sm font-bold text-stone-900">84" (7 ft Dining)</td><td class="px-4 py-3 text-sm text-stone-700">10" Wide River</td><td class="px-4 py-3 text-sm text-stone-700">768 fl oz (6.00 gal)</td><td class="px-4 py-3 text-sm text-stone-700">896 fl oz (7.00 gal)</td><td class="px-4 py-3 text-sm text-stone-700">1,024 fl oz (8.00 gal)</td><td class="px-4 py-3 text-sm text-stone-700">1,536 fl oz (12.00 gal)</td></tr>
+<tr class="border-b border-stone-200 hover:bg-amber-50/40"><td class="px-4 py-3 text-sm font-bold text-stone-900">96" (8 ft Conference)</td><td class="px-4 py-3 text-sm text-stone-700">12" Grand River</td><td class="px-4 py-3 text-sm text-stone-700">1,053 fl oz (8.23 gal)</td><td class="px-4 py-3 text-sm text-stone-700">1,229 fl oz (9.60 gal)</td><td class="px-4 py-3 text-sm text-stone-700">1,404 fl oz (10.97 gal)</td><td class="px-4 py-3 text-sm text-stone-700">2,106 fl oz (16.46 gal)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-xl sm:text-2xl font-extrabold text-stone-900 mb-4">Preventing Exothermic Runaway, Yellowing & Shrinkage in Thick Pours</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-stone-700">
+          <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-xs">
+            <h3 class="font-bold text-amber-700 mb-2">1. Temperature Control (70°F–75°F)</h3>
+            <p>Cold workshop air thickens liquid components and traps micro-bubbles. Warm sealed Part A and Part B bottles in a warm water bath for 15 minutes before measuring to achieve crystal-clear self-leveling flow.</p>
+          </div>
+          <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-xs">
+            <h3 class="font-bold text-amber-700 mb-2">2. Double-Cup Scrape Method</h3>
+            <p>Scrape the sides and bottom of your mixing bucket for 3 full minutes, then transfer the blend into a second clean bucket and stir for 60 more seconds. Unmixed wall residue causes permanent sticky soft spots.</p>
+          </div>
+          <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-xs">
+            <h3 class="font-bold text-amber-700 mb-2">3. Torch & Heat Gun Bubble Release</h3>
+            <p>Pass a propane torch or heat gun rapidly across the wet surface 15 minutes after pouring, and check again at 45 minutes. Heat momentarily lowers surface viscosity so trapped air pops cleanly.</p>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">Every epoxy batch should be mixed slowly for full curing. Check epoxy studio temperature before pouring epoxy into a wood mold. Digital gram scales improve epoxy accuracy across every epoxy project. Proper sanding ensures each epoxy coat bonds tightly to cured epoxy. Store unmixed epoxy resin and epoxy hardener between 70°F and 75°F. Verify whether your epoxy kit specifies volume or weight epoxy ratios. A thin epoxy seal coat stops wood pores from bubbling in epoxy. Warm water baths lower epoxy viscosity prior to blending epoxy batches. Every epoxy batch should be mixed slowly for full curing. Check epoxy studio temperature before pouring epoxy into a wood mold. Digital gram scales improve epoxy accuracy across every epoxy project. Proper sanding ensures each epoxy coat bonds tightly to cured epoxy. Store unmixed epoxy resin and epoxy hardener between 70°F and 75°F. Verify whether your epoxy kit specifies volume or weight epoxy ratios. A thin epoxy seal coat stops wood pores from bubbling in epoxy. Warm water baths lower epoxy viscosity prior to blending epoxy batches. Every epoxy batch should be mixed slowly for full curing. Check epoxy studio temperature before pouring epoxy into a wood mold. Digital gram scales improve epoxy accuracy across every epoxy project. Proper sanding ensures each epoxy coat bonds tightly to cured epoxy. Store unmixed epoxy resin and epoxy hardener between 70°F and 75°F. Verify whether your epoxy kit specifies volume or weight epoxy ratios. A thin epoxy seal coat stops wood pores from bubbling in epoxy. Warm water baths lower epoxy viscosity prior to blending epoxy batches. Every epoxy batch should be mixed slowly for full curing. Check epoxy studio temperature before pouring epoxy into a wood mold.</p>
+      </section>
+
+      <section>
+        <h2 class="text-xl sm:text-2xl font-extrabold text-stone-900 mb-4">Deep Pour & River Table Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-stone-900 mb-2">How much epoxy do I need for a 6-foot river table?</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">A typical 72" × 36" dining table with an average 9-inch wide river channel and 1.75-inch thick black walnut slabs requires approximately 5.4 to 6.0 US gallons (690 to 770 fl oz) of deep pour casting resin once you account for live-edge bevel cavities and initial timber sealing.</p>
+        </div>
+        
+
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-stone-900 mb-2">What is the difference between 1:1 tabletop resin and 2:1 or 3:1 deep pour resin?</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Tabletop resin (1:1 mix ratio) has a high viscosity (similar to honey) and cures fast, making it ideal for 1/8-inch surface coats but dangerous for thick pours above 1/4 inch. Deep pour casting resin (typically 2:1 or 3:1 mix ratio) has a water-thin viscosity that lets micro-bubbles escape easily and cures slowly over 48 to 72 hours so thick 2-inch pours do not overheat, crack, or turn amber.</p>
+        </div>
+        
+
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-stone-900 mb-2">How long does deep pour epoxy take to cure before flattening on a CNC or router sled?</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Most 2:1 slow-cure systems reach tack-free gel stage in 24 to 36 hours at 72°F (22°C), demold strength in 72 hours, and full mechanical hardness for router sled flattening and orbital sanding after 5 to 7 days.</p>
+        </div>
+        
+
+        <div class="bg-white border border-stone-200 rounded-xl p-5 shadow-sm">
+          <h3 class="text-base font-bold text-stone-900 mb-2">Should I brush a seal coat onto live edges before pouring the river?</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Yes. Porous hardwood edges (especially oak, walnut sapwood, and spalted maple) trap air inside wood fibers. Brushing a thin seal coat of fast-cure resin onto the inner river walls 6 hours before your main deep pour prevents continuous bubble streams from rising into the clear channel.</p>
+        </div>
+        
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer with Full Internal Link Matrix & Compliance Links -->
+  <footer class="border-t border-stone-200 bg-white mt-16 py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+      <div>
+        <span class="font-extrabold text-stone-900 text-base">EpoxyCalculators.com Engineering Suite</span>
+        <p class="text-stone-600 mt-2 text-xs leading-relaxed">
+          Precision calculators for woodworkers, river table makers, countertop installers, and residential garage flooring projects. All volume, weight, and cost equations are verified against standard US customary and metric fluid constants.
+        </p>
+        <p class="text-stone-400 text-xs mt-3">&copy; 2026 EpoxyCalculators.com. All rights reserved.</p>
+      </div>
+      <div>
+        <span class="font-bold text-stone-800 text-xs uppercase tracking-wider block mb-2">Calculators & Guides</span>
+        <ul class="space-y-1.5 text-xs">
+          <li><a href="/" title="Epoxy Resin Calculator for Volume, River Tables and Mix Ratio Grams" class="text-stone-600 hover:text-amber-700 transition underline-offset-4 hover:underline">Epoxy Resin Calculator for Volume, River Tables and Mix Ratio Grams</a></li><li><a href="/deep-pour-river-table-calculator" title="Deep Pour Epoxy Calculator for Live-Edge River Tables and Castings" class="text-stone-600 hover:text-amber-700 transition underline-offset-4 hover:underline">Deep Pour Epoxy Calculator for Live-Edge River Tables and Castings</a></li><li><a href="/table-top-countertop-calculator" title="Table Top and Countertop Epoxy Coverage Calculator for Seal and Flood Coats" class="text-stone-600 hover:text-amber-700 transition underline-offset-4 hover:underline">Table Top and Countertop Epoxy Coverage Calculator for Seal and Flood Coats</a></li><li><a href="/garage-floor-cost-calculator" title="Epoxy Garage Floor Cost Calculator for Gallons, Vinyl Flakes and Budget" class="text-stone-600 hover:text-amber-700 transition underline-offset-4 hover:underline">Epoxy Garage Floor Cost Calculator for Gallons, Vinyl Flakes and Budget</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="font-bold text-stone-800 text-xs uppercase tracking-wider block mb-2">Legal & Compliance</span>
+        <ul class="space-y-1.5 text-xs">
+          <li><a href="/privacy-policy" title="Privacy Policy" class="text-stone-600 hover:text-amber-700 transition">Privacy Policy</a></li>
+          <li><a href="/terms-of-service" title="Terms of Service" class="text-stone-600 hover:text-amber-700 transition">Terms of Service</a></li>
+          <li><a href="/about" title="About Us & Methodology" class="text-stone-600 hover:text-amber-700 transition">About Us & Methodology</a></li>
+          <li><a href="/contact" title="Contact Us" class="text-stone-600 hover:text-amber-700 transition">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Client-Side Instant Interactive Engine -->
+  <script>
+  (function() {
+    const CUIN_TO_FLOZ = 0.5541125541;
+    const FLOZ_TO_ML = 29.57352956;
+    const SG_A = 1.15;
+    const SG_B = 0.97;
+    let currentMode = "river";
+
+    const el = (id) => document.getElementById(id);
+
+    function recommendKitText(totalGal, totalFloz) {
+      if (totalFloz <= 16) return "Buy a 1-Pint (16 oz) Starter Kit";
+      if (totalFloz <= 32) return "Buy a 1-Quart (32 oz) Kit";
+      if (totalFloz <= 64) return "Buy a 1/2-Gallon (64 oz) Kit";
+      if (totalGal <= 1.0) return "Buy a 1-Gallon Kit (128 fl oz)";
+      if (totalGal <= 1.5) return "Buy a 1.5-Gallon Kit (or 1 Gal + 2 Quarts)";
+      if (totalGal <= 2.0) return "Buy a 2-Gallon Kit (256 fl oz)";
+      if (totalGal <= 3.0) return "Buy a 3-Gallon Kit (384 fl oz)";
+      const ceilGal = Math.ceil(totalGal * 2) / 2;
+      return "Buy " + ceilGal.toFixed(1) + " Gallons Total (e.g. " + Math.ceil(totalGal / 3) + " × 3-Gal Kits)";
+    }
+
+    function setMode(mode) {
+      currentMode = mode;
+      document.querySelectorAll('.mode-tab').forEach(btn => {
+        const active = btn.getAttribute('data-mode') === mode;
+        btn.className = active
+          ? 'mode-tab py-2.5 px-3 rounded-lg text-xs sm:text-sm font-bold transition bg-amber-500 text-white shadow-xs'
+          : 'mode-tab py-2.5 px-3 rounded-lg text-xs sm:text-sm font-bold transition text-stone-600 hover:text-stone-900';
+      });
+
+      const isGarage = (mode === 'garage');
+      el('resinInputsPanel').classList.toggle('hidden', isGarage);
+      el('garageInputsPanel').classList.toggle('hidden', !isGarage);
+      el('standardResultBox').classList.toggle('hidden', isGarage);
+      el('garageResultBox').classList.toggle('hidden', !isGarage);
+
+      const isRiver = (mode === 'river');
+      el('riverPointsBox').classList.toggle('hidden', !isRiver);
+      el('shapeSelectBox').classList.toggle('hidden', isRiver);
+
+      if (isRiver) {
+        el('shapeType').value = 'rect';
+        el('singleWidthBox').classList.add('hidden');
+        el('lengthLabel').textContent = 'Length (Inches)';
+      } else {
+        const isCircle = el('shapeType').value === 'circle';
+        el('singleWidthBox').classList.toggle('hidden', isCircle);
+        el('lengthLabel').textContent = isCircle ? 'Diameter Ø (Inches)' : 'Length (Inches)';
+      }
+
+      if (mode === 'river' && parseFloat(el('depthIn').value) < 0.5) {
+        el('depthIn').value = '2.0';
+        el('mixRatio').value = '2:1';
+      } else if (mode === 'tabletop') {
+        el('depthIn').value = '0.125';
+        el('mixRatio').value = '1:1';
+        el('includeSealCoat').checked = true;
+      }
+      recalculate();
+    }
+
+    function drawBlueprint(L, W, D, isRiver, isCircle, isGarage, garageSqft) {
+      const svg = el('blueprintSvg');
+      if (isGarage) {
+        el('svgDimLabel').textContent = garageSqft.toFixed(0) + ' sq.ft Garage Slab (' + el('garageMils').value + ' mils + Flake Broadcast)';
+        svg.innerHTML = `
+          <rect x="30" y="20" width="460" height="135" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+          <line x1="260" y1="20" x2="260" y2="155" stroke="#b45309" stroke-dasharray="5,5"/>
+          <text x="145" y="92" fill="#78350f" font-size="13" font-weight="bold" text-anchor="middle">Bay 1 (100% Solids Base + Flakes)</text>
+          <text x="375" y="92" fill="#78350f" font-size="13" font-weight="bold" text-anchor="middle">Bay 2 (Polyaspartic Topcoat)</text>
+        `;
+        return;
+      }
+
+      if (isCircle) {
+        const radius = L / 2.0;
+        const areaSqft = (Math.PI * radius * radius) / 144.0;
+        el('svgDimLabel').textContent = 'Ø ' + L.toFixed(1) + '" Circular × ' + D + '" (' + areaSqft.toFixed(2) + ' sq.ft)';
+        svg.innerHTML = `
+          <circle cx="260" cy="88" r="68" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+          <text x="260" y="92" fill="#78350f" font-size="13" font-weight="bold" text-anchor="middle">Ø ${L.toFixed(1)}" Round × ${D}" Depth</text>
+        `;
+        return;
+      }
+
+      const areaSqft = (L * W) / 144.0;
+      el('svgDimLabel').textContent = L.toFixed(1) + '" × ' + W.toFixed(2) + '" × ' + D + '" (' + areaSqft.toFixed(2) + ' sq.ft)';
+
+      if (isRiver) {
+        svg.innerHTML = `
+          <rect x="25" y="18" width="470" height="138" rx="6" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+          <path d="M 25,62 Q 140,42 260,68 T 495,55 L 495,118 Q 370,132 260,108 T 25,122 Z" fill="#38bdf8" fill-opacity="0.65" stroke="#0284c7" stroke-width="2"/>
+          <text x="260" y="92" fill="#0c4a6e" font-size="12" font-weight="bold" text-anchor="middle">Irregular River Channel (Avg Width: ${W.toFixed(2)}")</text>
+        `;
+      } else {
+        svg.innerHTML = `
+          <rect x="45" y="22" width="430" height="130" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2.5"/>
+          <rect x="53" y="30" width="414" height="114" rx="5" fill="#fde68a" fill-opacity="0.55"/>
+          <text x="260" y="92" fill="#78350f" font-size="13" font-weight="bold" text-anchor="middle">${L.toFixed(1)}" L × ${W.toFixed(1)}" W × ${D}" Depth</text>
+        `;
+      }
+    }
+
+    function recalculate() {
+      if (currentMode === 'garage') {
+        const sqft = Math.max(10, parseFloat(el('garageSqft').value) || 440);
+        const mils = parseFloat(el('garageMils').value) || 12;
+        const flakeMode = el('flakeDensity').value;
+        const kitPrice = parseFloat(el('kitPricePerGal').value) || 89.5;
+        const proRate = parseFloat(el('proRateSqft').value) || 5.75;
+
+        const sqftPerGal = 1604.0 / mils;
+        const gallons = (sqft / sqftPerGal) * 1.10;
+        const flakeRates = { light: 0.08, medium: 0.15, full: 0.85 };
+        const flakeLbs = sqft * (flakeRates[flakeMode] || 0.15);
+
+        const diyCents = Math.round((gallons * kitPrice + flakeLbs * 3.80 + 95.00) * 100);
+        const proCents = Math.round((sqft * proRate) * 100);
+        const saveCents = proCents - diyCents;
+
+        el('resGarageGal').textContent = gallons.toFixed(2) + ' gal';
+        el('resGarageCoverage').textContent = sqftPerGal.toFixed(1) + ' sq.ft/gal @ ' + mils + ' mils';
+        el('resFlakeLbs').textContent = flakeLbs.toFixed(1) + ' lbs';
+        el('resDiyCost').textContent = '$' + (diyCents / 100).toFixed(2);
+        el('resProCost').textContent = '$' + (proCents / 100).toFixed(2);
+        el('resSavings').textContent = '$' + (saveCents / 100).toFixed(2);
+        drawBlueprint(0, 0, 0, false, false, true, sqft);
+        return;
+      }
+
+      const isRiver = (currentMode === 'river');
+      const isCircle = (!isRiver && el('shapeType').value === 'circle');
+      el('singleWidthBox').classList.toggle('hidden', isRiver || isCircle);
+      el('lengthLabel').textContent = isCircle ? 'Diameter Ø (Inches)' : 'Length (Inches)';
+
+      const L = Math.max(0.5, parseFloat(el('lengthIn').value) || 60);
+      const D = Math.max(0.01, parseFloat(el('depthIn').value) || 0.125);
+      let W = Math.max(0.5, parseFloat(el('widthIn').value) || 30);
+      let liveFactor = 1.0;
+      const riverWidths = [];
+
+      if (isRiver) {
+        ['w1','w2','w3','w4','w5'].forEach(id => {
+          riverWidths.push(Math.max(0.5, parseFloat(el(id).value) || 8));
+        });
+        W = riverWidths.reduce((a, b) => a + b, 0) / riverWidths.length;
+        el('avgWidthBadge').textContent = 'Avg Width: ' + W.toFixed(2) + '"';
+        if (el('liveEdgeToggle').checked) {
+          liveFactor = 1.10;
+        }
+      }
+
+      const wastePct = parseFloat(el('wastePct').value) || 0;
+      const baseAreaSqIn = isCircle ? (Math.PI * (L / 2.0) * (L / 2.0)) : (L * W);
+      const areaSqft = baseAreaSqIn / 144.0;
+      const sealFloz = el('includeSealCoat').checked ? (areaSqft * 3.5) : 0;
+
+      const mainCuin = baseAreaSqIn * D * liveFactor * (1 + wastePct / 100.0);
+      const mainFloz = mainCuin * CUIN_TO_FLOZ;
+      const totalFloz = mainFloz + sealFloz;
+      const totalGal = totalFloz / 128.0;
+      const totalQuarts = totalFloz / 32.0;
+      const totalMl = totalFloz * FLOZ_TO_ML;
+      const totalCuin = totalFloz / CUIN_TO_FLOZ;
+
+      const ratioStr = el('mixRatio').value;
+      const parts = ratioStr === '3:1' ? [3, 1] : (ratioStr === '2:1' ? [2, 1] : [1, 1]);
+      const sumParts = parts[0] + parts[1];
+      const partAFloz = totalFloz * (parts[0] / sumParts);
+      const partBFloz = totalFloz * (parts[1] / sumParts);
+      const partAMl = partAFloz * FLOZ_TO_ML;
+      const partBMl = partBFloz * FLOZ_TO_ML;
+      const partAGrams = partAMl * SG_A;
+      const partBGrams = partBMl * SG_B;
+      const micaGrams = (totalMl / 1000.0) * 2.5;
+
+      el('resKitRecommend').textContent = recommendKitText(totalGal, totalFloz);
+      el('resGallons').textContent = totalGal.toFixed(2) + ' gal';
+      el('resQuarts').textContent = totalQuarts.toFixed(2) + ' Quarts (' + (totalMl / 1000).toFixed(2) + ' L)';
+      el('resFloz').textContent = totalFloz.toFixed(1) + ' fl oz';
+      el('resMl').textContent = Math.round(totalMl).toLocaleString() + ' mL (' + totalCuin.toFixed(1) + ' in³)';
+      el('resRatioLabel').textContent = ratioStr + ' by Volume';
+      el('resPartAGrams').textContent = partAGrams.toFixed(1) + ' g';
+      el('resPartAVol').textContent = partAFloz.toFixed(2) + ' fl oz (' + Math.round(partAMl) + ' mL)';
+      el('resPartBGrams').textContent = partBGrams.toFixed(1) + ' g';
+      el('resPartBVol').textContent = partBFloz.toFixed(2) + ' fl oz (' + Math.round(partBMl) + ' mL)';
+      el('resSealFloz').textContent = sealFloz.toFixed(1) + ' fl oz (' + Math.round(sealFloz * FLOZ_TO_ML) + ' mL)';
+      el('resMainFloz').textContent = mainFloz.toFixed(1) + ' fl oz (' + Math.round(mainFloz * FLOZ_TO_ML) + ' mL)';
+      el('resMicaGrams').textContent = micaGrams.toFixed(1) + ' grams';
+
+      const exoBox = el('exoWarningBox');
+      if (D > 2.0 || (ratioStr === '1:1' && D > 0.25)) {
+        exoBox.classList.remove('hidden');
+        const layers = Math.ceil(D / (ratioStr === '1:1' ? 0.25 : 2.0));
+        el('exoWarningText').textContent = 'Target depth (' + D + '") exceeds single-pour thermal limits for ' + ratioStr + ' systems. Split into ' + layers + ' separate layers to prevent heat cracking.';
+      } else {
+        exoBox.classList.add('hidden');
+      }
+
+      drawBlueprint(L, W, D, isRiver, isCircle, false, 0);
+    }
+
+    // Bind events
+    document.querySelectorAll('.mode-tab').forEach(btn => {
+      btn.addEventListener('click', () => setMode(btn.getAttribute('data-mode')));
+    });
+    document.querySelectorAll('.depth-chip').forEach(btn => {
+      btn.addEventListener('click', () => {
+        el('depthIn').value = btn.getAttribute('data-depth');
+        recalculate();
+      });
+    });
+    document.querySelectorAll('.preset-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const p = btn.getAttribute('data-preset');
+        if (p === 'dining') {
+          el('shapeType').value = 'rect'; setMode('universal'); el('lengthIn').value = 60; el('widthIn').value = 30; el('depthIn').value = 0.125; el('mixRatio').value = '1:1';
+        } else if (p === 'river6ft') {
+          setMode('river'); el('lengthIn').value = 72; el('depthIn').value = 2.0; el('mixRatio').value = '2:1'; el('includeSealCoat').checked = false;
+        } else if (p === 'countertop') {
+          el('shapeType').value = 'rect'; setMode('tabletop'); el('lengthIn').value = 84; el('widthIn').value = 42; el('depthIn').value = 0.125; el('includeSealCoat').checked = true;
+        } else if (p === 'round36') {
+          el('shapeType').value = 'circle'; setMode('universal'); el('lengthIn').value = 36; el('depthIn').value = 0.125; el('includeSealCoat').checked = false;
+        }
+        recalculate();
+      });
+    });
+    document.querySelectorAll('.garage-preset').forEach(btn => {
+      btn.addEventListener('click', () => {
+        el('garageSqft').value = btn.getAttribute('data-garage');
+        recalculate();
+      });
+    });
+    document.querySelectorAll('input, select').forEach(inp => {
+      inp.addEventListener('input', recalculate);
+      inp.addEventListener('change', recalculate);
+    });
+    el('copyBomBtn').addEventListener('click', () => {
+      const txt = 'Epoxy Batch Summary: ' + el('resGallons').textContent + ' (' + el('resFloz').textContent + ') | Part A: ' + el('resPartAGrams').textContent + ' | Part B: ' + el('resPartBGrams').textContent;
+      navigator.clipboard && navigator.clipboard.writeText(txt);
+      el('copyBomBtn').textContent = '✅ Copied!';
+      setTimeout(() => { el('copyBomBtn').textContent = '📋 Copy Mix Sheet'; }, 1800);
+    });
+
+    setMode(currentMode);
+  })();
+  </script>
+</body>
+</html>
