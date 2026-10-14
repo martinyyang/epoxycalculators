@@ -14,15 +14,15 @@
 - 每周证据核对：周三约 09:38 Asia/Shanghai（COS 例行 → GLM）
 - 上限：每周最多 **5** 个新目录提交
 
-## 已完成（截至 2026-10-13 上海）
+## 已完成（截至 2026-10-14 上海）
 
 | Site | Status | Notes |
 |------|--------|-------|
 | ListYourApp | 已提交待审 | Free / Business Tools |
 | The Tool Directory | 已提交待审 | Utilities; no boost |
-| The Free Tools Directory | 已提交待审 | Miscellaneous Calculators |
+| The Free Tools Directory | 已提交待审 | Miscellaneous Calculators; site already lists Omni Calculator's epoxy calculator — ours may be judged a duplicate |
 | CuriousCrafters | 已提交待审 | Resin & Molds |
-| ProductPerch | 已提交待审/排期 | Public: https://productperch.com/products/epoxycalculators-com/ — free launch 2026-10-14 00:00 UTC; currently nofollow until OSS path (repo Website already set to https://epoxycalculators.com; still needs an OSI license e.g. MIT for free dofollow) |
+| ProductPerch | 已上线（nofollow） | LIVE 2026-10-14: https://productperch.com/products/epoxycalculators-com/ — launch day rank #5, 0 upvotes. Page is index,follow but outbound to us is rel=nofollow. ProductPerch shows 'Repo check: Not verified' / 'License: None found' (repo homepage already https://epoxycalculators.com). Dofollow needs an OSI license (e.g. MIT) + passing repo check — pending Martin. |
 
 ## 下一步（GLM 按表日期执行；COS 验收）
 
@@ -63,3 +63,4 @@
 ## Changelog
 
 - 2026-10-13: Initial plan + priority-5 submits recorded; ProductPerch free launch scheduled.
+- 2026-10-14: Wednesday evidence check — ProductPerch live (nofollow; repo check not verified, no OSI license); other 4 still pending review; wave 2 unchanged.
